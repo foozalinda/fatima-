@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=Odor+Mean+Chey&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.container{
+    width: min(90%, 1120px);
+    margin-inline: auto;   
+}
+
+header{
+    background-color: #fafaf6;
+    height: 4.5rem;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+.desktop-menu{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+.menus-link {
+    height: 100%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+      
+    
+}
+.menus-link li {
+    list-style: none;
+}
+.menus-link li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #2b2b2b;
+}
+.menus-link .active{
+    color:#ed563b;
+}
+.active{
+    color:#ed563b;
+}
+.menus-link li a:hover{
+    color: #ed563b;
+
+}
+.desktop-menu h1{
+    font-size: 1.5625rem;
+    font-weight: 700;
+    color: black;
+}
+.btn{
+    padding: 0.9375rem 1.75rem;
+    font-size: 1.25rem;
+    background-color: #ed563b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+}
+ .hamburger {
+    display: none;
+} 
+
+
+.hero{
+    height: calc(100vh - 4.5rem);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media.istockphoto.com/id/894242814/photo/cheerful-male-athlete-talking-to-his-friend-on-exercising-training-in-a-health-club.webp?b=1&s=170667a&w=0&k=20&c=VwJ7RVbW2OAHdtB7YqUlVwGsJwabFQCE8MHa9cBMBDk=") center / cover no-repeat; 
+    display: flex;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3rem;
+    text-align: center;
+}
+
+.hero p{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700; 
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.hero h1{
+    font-size: 6rem;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.program{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.header-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+ p{
+  color: #7a7a7a;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.items{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.items img{
+    width: 100px;
+    height: 100px;
+    
+}
+.content{
+    height: 438px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://media.istockphoto.com/id/1503324641/photo/rear-view-of-athletic-people-running-on-treadmill-in-a-gym.webp?b=1&s=170667a&w=0&k=20&c=UwI_frkb7aME_kvyjXSt3bJwUy4Ju5DV8NJgJbNlW7g=") center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-block: 2rem;
+    margin-top: 4rem;
+   
+}
+.content h2{
+    color: white;
+    font-size: 3.125rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.content p{
+    color: rgb(245, 242, 242);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.content button{
+    margin-top: 3rem;
+}
+
+.form{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.header-row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+
+.grid-goal{
+    display: flex;
+    gap: 6rem;
+}
+.left-side{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-between;
+}
+.job {
+    display: flex;
+    gap: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0,0.2);
+    width: 360px;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+.right-side{
+    gap: 1.5rem;
+    align-items: self-start;
+}
+.right-side.pro img{
+    max-width: 100%;
+}
+.grid-goal a{
+    color: #ffffff;
+    text-decoration: none;
+      
+}
+.SCHEDULE{
+    margin-top: 10rem;
+    height: 66.474375rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://media.istockphoto.com/id/1503324641/photo/rear-view-of-athletic-people-running-on-treadmill-in-a-gym.webp?b=1&s=170667a&w=0&k=20&c=UwI_frkb7aME_kvyjXSt3bJwUy4Ju5DV8NJgJbNlW7g=") center / cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 3rem;
+}
+.header-info{
+    margin-top: 10rem;
+}
+.header-info p{
+       color: white;
+}
+.days ul{
+   display: flex;
+   justify-content: center;
+}
+.days li{
+    list-style: none;
+}
+.container-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    width: 45rem;
+    height: 31.3125rem;
+    border-color: white;
+    border-collapse: collapse;
+}
+table tbody tr td{
+    text-align: center;
+    height: 100px;
+    font-size: 0.8125rem;
+}
+.expert{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.heade-train{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+}
+.grid-trainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 4rem;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.card img{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.real{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    padding-inline: 2rem;
+}
+
+.social{
+    display: flex;
+    gap: 1rem;
+    padding-inline: 2rem;
+    margin-top: 1rem;
+}
+.map{
+    height: 550px;
+    margin-top: 10rem;
+    display: flex;
+   
+}
+.roll{
+    width: 680px;
+}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+.for{
+    width: 660px;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://media.istockphoto.com/id/1503324641/photo/rear-view-of-athletic-people-running-on-treadmill-in-a-gym.webp?b=1&s=170667a&w=0&k=20&c=UwI_frkb7aME_kvyjXSt3bJwUy4Ju5DV8NJgJbNlW7g=") center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 1px;
+}
+form input,textarea {
+    margin: 20px;
+}
+form .btn{
+    margin: 20px;
+}
+#subject,#roll{
+    width: 90%;
+}
+footer{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+ @media(max-width: 768px){
+    .desktop-menu{
+        height: 50px;
+       flex-direction: column;
+       background-color: white;
+    }
+    .desktop-menu h1{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-right: 8rem;
+    }
+    .menus-link {
+        display: flex;
+        flex-direction: column;
+        background-color:white;
+        width: 90%;
+        height: 325px;
+        margin-top: 4rem;
+        position: fixed;
+        gap: 0;
+        transform: translateY(0%);
+        transition: transform 0.5s;
+        
+    }
+    .menus-link button {
+        padding-block: 1rem;
+        border-bottom: 1px solid black;
+    }
+    .menus-link li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid black;
+        padding-block: 18px;
+    }
+
+    i{
+        z-index: 11111;
+    }
+    .hamburger{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        /* background-color: #d45f5f; */
+        color: black;
+        width: 50px;
+        height: 50px;
+        top: 15px;
+        right: 5%;
+        border-radius: 50%;
+        font-size: 2rem;  
+    }
+
+    .menus-link[data-visible="false"]{
+        transform: translateY(-145%);
+
+    }
+
+    .hamburger i[data-visible="true"]{
+        display: block;   
+    }
+    .hamburger i[data-visible="false"]{
+        display: none;   
+    }
+   
+    .hero h1{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    .content h2{
+        font-size: 2rem;
+    }
+    
+    .grid-goal{
+       flex-direction: column;
+    }
+   
+    .grid-trainer{
+        grid-template-columns: 1fr;
+    }
+    .map{
+      flex-direction: column;
+      width: 390px;
+      height: 1150px;
+    }
+    .roll{
+        height: 600px;
+        width: 390px;
+    }
+    .for{
+        width: 100%;
+        height: 550px;
+    }
+ }
